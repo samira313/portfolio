@@ -5,7 +5,7 @@ export default function Navbar() {
         
         {/* --- Logo --- */}
         <a href="#hero" className="text-2xl font-bold text-primary">
-          Samira.dev
+          Samira.logo
         </a>
 
         {/* --- Navigation Links --- */}

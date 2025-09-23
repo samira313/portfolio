@@ -1,4 +1,4 @@
-import profile from "../assets/profile.jpeg"; // your profile picture
+import profile from "../assets/profile.jpeg"; 
 
 export default function Hero() {
   return (

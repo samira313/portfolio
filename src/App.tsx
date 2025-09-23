@@ -1,12 +1,17 @@
 import './App.css'
-import Journey from './sections/Journey';
+
+
+import Navbar from "./components/Navbar";
+import Hero from "./sections/Hero";
 
 function App() {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100">
-   
-      <Journey />
+    <div>
+      <Navbar />
+      <Hero />
+    
     </div>
   );
 }
+
 export default App;

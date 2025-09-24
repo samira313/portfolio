@@ -1,24 +1,30 @@
-import profile from "../assets/profile.jpeg"; 
+// import profile from "../assets/profile.jpeg"; 
 
-export default function Hero() {
+type HeroProps = {
+  name: string;
+  title: string;
+  skills: string[];
+};
+
+export default function Hero({ name, title, skills }: HeroProps) {
   return (
-    <section
-      id="hero"
-      className="min-h-screen flex flex-col justify-center items-center text-center bg-emerald-30 pt-20"
-    >
-      {/* --- Profile Picture --- */}
+    <section className="flex flex-col items-center justify-center text-center py-20 bg-gray-50">
       <img
-        src={profile}
-        alt="Samira Ahmadi"
-        className="w-40 h-40 rounded-full shadow-lg mb-6 object-cover"
+        src="/assets/profile.jpeg"
+        alt={name}
+        className="w-48 h-48 rounded-full shadow-xl border-4 border-primary mb-8"
       />
 
-      {/* --- Name & Title --- */}
-      <h1 className="text-4xl md:text-5xl font-heading text-gray-800">
-        Hi, I’m <span className="text-primary">Samira Ahmadi</span>
+      <h1 className="text-6xl font-extrabold text-gray-900 mb-6">
+        Hi, I'm <span className="text-primary">{name}</span>
       </h1>
-      <p className="mt-4 text-lg text-gray-600 max-w-xl">
-        Junior Software Developer | React | TypeScript | TailwindCSS | Node.js
+
+      <p className="text-2xl text-gray-700 font-medium mb-6">
+        {title}
+      </p>
+
+      <p className="text-lg text-gray-500 mb-10">
+        {skills.join(" | ")}
       </p>
 
       {/* --- Call to Action Buttons --- */}

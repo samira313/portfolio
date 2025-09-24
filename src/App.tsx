@@ -7,7 +7,12 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Hero />
+   <Hero
+  name="Samira Ahmadi"
+  title="Junior Software Developer"
+  skills={["React", "TypeScript", "TailwindCSS", "Node.js"]}
+/>
+
       <Journey />
     
     </div>

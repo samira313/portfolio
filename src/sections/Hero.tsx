@@ -1,4 +1,4 @@
-import profileImage from "../assets/profile.jpeg"; 
+
 
 type HeroProps = {
   profileImage: string;
@@ -7,38 +7,45 @@ type HeroProps = {
   skills: string[];
 };
 
-export default function Hero({ name, title, skills }: HeroProps) {
+export default function Hero({ profileImage, name, title, skills }: HeroProps) {
   return (
-    <section className="flex flex-col items-center justify-center text-center py-20 bg-gray-50">
+    <section
+      id="hero"
+      className="flex flex-col items-center justify-center text-center py-20 bg-gradient-to-b from-white via-gray-50 to-gray-100"
+    >
+      {/* Profile Image */}
       <img
         src={profileImage}
         alt={name}
-        className="w-48 h-48 rounded-full shadow-xl border-4 border-primary mb-8"
+        className="w-40 h-40 rounded-full shadow-lg border-4 border-gray-100 mb-20 mt-40"
       />
 
-      <h1 className="text-6xl font-extrabold text-gray-900 mb-6">
+      {/* Name */}
+      <h1 className="text-4xl md:text-5xl font-extrabold text-gray-800 mb-2">
         Hi, I'm <span className="text-primary">{name}</span>
       </h1>
 
-      <p className="text-2xl text-gray-700 font-medium mb-6">
+      {/* Title */}
+      <h2 className="text-xl md:text-2xl font-medium text-gray-600 mb-4">
         {title}
-      </p>
+      </h2>
 
-      <p className="text-lg text-gray-500 mb-10">
+      {/* Skills */}
+      <p className="text-gray-500 text-lg max-w-xl mb-6">
         {skills.join(" | ")}
       </p>
 
-      {/* --- Call to Action Buttons --- */}
-      <div className="mt-6 space-x-4">
+      {/* Buttons */}
+      <div className="flex space-x-4">
         <a
           href="#projects"
-          className="bg-gray-200 px-6 py-2 rounded-lg shadow hover:bg-gray-300"
+          className="px-6 py-2 bg-gray-200 text-gray-700 rounded-lg shadow hover:bg-gray-300 transition"
         >
           View My Work
         </a>
         <a
           href="#contact"
-          className="bg-gray-200 px-6 py-2 rounded-lg shadow hover:bg-gray-300"
+          className="px-6 py-2 bg-gray-200 text-gray-700 rounded-lg shadow hover:bg-gray-300 transition"
         >
           Contact Me
         </a>

@@ -1,5 +1,3 @@
-
-
 type HeroProps = {
   profileImage: string;
   name: string;

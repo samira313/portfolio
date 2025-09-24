@@ -1,6 +1,7 @@
-// import profile from "../assets/profile.jpeg"; 
+import profileImage from "../assets/profile.jpeg"; 
 
 type HeroProps = {
+  profileImage: string;
   name: string;
   title: string;
   skills: string[];
@@ -10,7 +11,7 @@ export default function Hero({ name, title, skills }: HeroProps) {
   return (
     <section className="flex flex-col items-center justify-center text-center py-20 bg-gray-50">
       <img
-        src="/assets/profile.jpeg"
+        src={profileImage}
         alt={name}
         className="w-48 h-48 rounded-full shadow-xl border-4 border-primary mb-8"
       />

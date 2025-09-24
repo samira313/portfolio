@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-screen flex flex-col justify-center items-center text-center bg-gray-50 pt-20"
+      className="min-h-screen flex flex-col justify-center items-center text-center bg-emerald-30 pt-20"
     >
       {/* --- Profile Picture --- */}
       <img
@@ -18,14 +18,14 @@ export default function Hero() {
         Hi, I’m <span className="text-primary">Samira Ahmadi</span>
       </h1>
       <p className="mt-4 text-lg text-gray-600 max-w-xl">
-        Junior Software Developer | React | TypeScript | TailwindCSS
+        Junior Software Developer | React | TypeScript | TailwindCSS | Node.js
       </p>
 
       {/* --- Call to Action Buttons --- */}
       <div className="mt-6 space-x-4">
         <a
           href="#projects"
-          className="bg-primary text-white px-6 py-2 rounded-lg shadow hover:bg-primary/90"
+          className="bg-gray-200 px-6 py-2 rounded-lg shadow hover:bg-gray-300"
         >
           View My Work
         </a>

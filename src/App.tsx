@@ -7,6 +7,7 @@ import logo  from "./assets/logo.png";
 import profileImage from "./assets/profile.jpeg"; 
 import About from "./sections/About";
 import { texts } from "./i18n/texts";
+import Skills from "./sections/Skills";
 function App() {
     const [lang, setLang] = useState<"en" | "fa" | "nl">("en");
   return (
@@ -51,6 +52,27 @@ function App() {
         description={texts.about[lang].text}
       />
     </div>
+     {/* Skills Section */}
+      <Skills
+        skills={[
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "React",
+          "TypeScript",
+          "Node.js",
+          "TailwindCSS",
+          "SQL",
+          "MongoDB",
+          "Git & GitHub",
+          "Postman",
+          "Firebase",
+          "Figma",
+          "Netlify",
+          "Jira"
+        ]}
+      />
+
         {/* Journey Section */}
       <Journey
         image="/src/assets/journey/account1.jpeg"

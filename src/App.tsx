@@ -86,7 +86,7 @@ function App() {
           {
             title: "ShopMate",
             description:
-            " smart shopping list application built with React (Vite) and Firebase.It helps users organize their groceries, share lists with others, and keep everything synchronized in real-time.",
+            " smart shopping list application built with TypeScript, React (Vite) and Firebase.It helps users organize their groceries, share lists with others, and keep everything synchronized in real-time.",
             link: "https://github.com/samira313/ShopMate-",
           },
           {

@@ -8,6 +8,8 @@ import profileImage from "./assets/profile.jpeg";
 import About from "./sections/About";
 import { texts } from "./i18n/texts";
 import Skills from "./sections/Skills";
+import Projects from "./sections/Projects";
+import Contact from "./sections/Contact";
 function App() {
     const [lang, setLang] = useState<"en" | "fa" | "nl">("en");
   return (
@@ -72,6 +74,34 @@ function App() {
           "Jira"
         ]}
       />
+        {/* Projects Section */}
+      <Projects
+        projects={[
+          {
+            title: "ShareWithUs",
+            description:
+              "A full-stack app for lending & borrowing items within a community. Built with the MERN stack.",
+            link: "https://github.com/samira313/ShareWithUs-App",
+          },
+          {
+            title: "ShopMate",
+            description:
+            " smart shopping list application built with React (Vite) and Firebase.It helps users organize their groceries, share lists with others, and keep everything synchronized in real-time.",
+            link: "https://github.com/samira313/ShopMate-",
+          },
+          {
+            title: "Crypto-App",
+            description:
+              "A crypto dashboard built with React & CoinGecko API. Features include live search, charts, and local storage.",
+            link: "https://github.com/samira313/Crypto-App",
+          },
+          {
+            title: "Weather-App",
+            description: "An interactive weather application that allows users to check the current weather and a 5-day forecast for any city worldwide.This app provides real-time weather updates",
+            link: "https://github.com/samira313/Weather-App",
+          },
+        ]}
+      />
 
         {/* Journey Section */}
       <Journey
@@ -83,7 +113,12 @@ function App() {
         and solve problems logically, skills I now apply to my career in software development."
       />
 
-    
+     {/* Contact Section */}
+      <Contact
+        email="ahmadi.samira6761@gmail.com"
+        linkedin="https://www.linkedin.com/in/samira-a-975711349?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+        github="https://github.com/samira313"
+      />
     </div>
   );
 }

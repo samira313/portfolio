@@ -10,6 +10,9 @@ import { texts } from "./i18n/texts";
 import Skills from "./sections/Skills";
 import Projects from "./sections/Projects";
 import Contact from "./sections/Contact";
+import Experience from "./sections/Experience";
+import exp1 from "./assets/exp1.jpeg"; 
+import exp2 from "./assets/exp2.jpeg"; 
 function App() {
     const [lang, setLang] = useState<"en" | "fa" | "nl">("en");
   return (
@@ -99,6 +102,18 @@ function App() {
             title: "Weather-App",
             description: "An interactive weather application that allows users to check the current weather and a 5-day forecast for any city worldwide.This app provides real-time weather updates",
             link: "https://github.com/samira313/Weather-App",
+          },
+        ]}
+      />
+       <Experience
+        experiences={[
+          {
+            title: "Full Stack Web Developer Trainee",
+            organization: "HackYourFuture",
+            period: "Nov 2024 – Jun 2025",
+            description:
+              "During my journey at HackYourFuture, I collaborated on multiple full-stack projects using React, Node.js, Express, and MongoDB. I also gained hands-on experience in Agile workflows and presented our final project, ShareWithUs.",
+            images: [exp1, exp2], // Images you uploaded
           },
         ]}
       />

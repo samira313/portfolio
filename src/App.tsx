@@ -58,25 +58,7 @@ function App() {
       />
     </div>
      {/* Skills Section */}
-      <Skills
-        skills={[
-          "HTML5",
-          "CSS3",
-          "JavaScript",
-          "React",
-          "TypeScript",
-          "Node.js",
-          "TailwindCSS",
-          "SQL",
-          "MongoDB",
-          "Git & GitHub",
-          "Postman",
-          "Firebase",
-          "Figma",
-          "Netlify",
-          "Jira"
-        ]}
-      />
+      <Skills  />
         {/* Projects Section */}
       <Projects
         projects={[

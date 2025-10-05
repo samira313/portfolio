@@ -8,7 +8,7 @@ type NavbarProps = {
 
 export default function Navbar({ logo, links }: NavbarProps) {
   return (
-    <nav className="fixed top-0 w-full bg-white shadow-md flex justify-between items-center px-8 py-3">
+    <nav className="fixed top-0 w-full bg-white shadow-md flex justify-between items-center mt-16 px-8 py-3">
       {/* Logo */}
       <a href="#hero" className="flex items-center space-x-2">
         <img src={logo} alt="Logo" className="h-30 w-30 rounded-full" />

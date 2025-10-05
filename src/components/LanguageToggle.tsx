@@ -14,10 +14,11 @@ type LanguageToggleProps = {
 const LanguageToggle: React.FC<LanguageToggleProps> = ({ currentLang, onChange }) => {
   return (
     // Main wrapper for language flags
-    <div
-      className="fixed top-5 left-5 z-50 flex space-x-3 items-center bg-white/90 backdrop-blur-md 
-      px-4 py-2 rounded-full shadow-lg border border-gray-200"
-    >
+   <div
+  className="fixed top-2  z-40 flex space-x-4 items-center bg-white/90 backdrop-blur-md 
+  px-2 py-3 rounded-full shadow-lg border border-gray-200"
+>
+
       {/* 🇬🇧 English */}
       <button
         onClick={() => onChange("en")}

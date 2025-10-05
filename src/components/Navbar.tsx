@@ -1,4 +1,5 @@
 
+
 // Define props for Navbar (for future scalability)
 type NavbarProps = {
   logo: string;

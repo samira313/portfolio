@@ -6,7 +6,9 @@ type HeroProps = {
 };
 
 export default function Hero({ profileImage, name, title, skills }: HeroProps) {
-  return (
+  return (<>
+    
+
     <section
       id="hero"
       className="flex flex-col items-center justify-center text-center py-20 bg-gradient-to-b from-white via-gray-50 to-gray-100"
@@ -49,5 +51,6 @@ export default function Hero({ profileImage, name, title, skills }: HeroProps) {
         </a>
       </div>
     </section>
+    </>
   );
 }

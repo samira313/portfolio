@@ -13,10 +13,16 @@ import Contact from "./sections/Contact";
 import Experience from "./sections/Experience";
 import exp1 from "./assets/exp1.jpeg"; 
 import exp2 from "./assets/exp2.jpeg"; 
+import LanguageToggle from "./components/LanguageToggle"
 function App() {
     const [lang, setLang] = useState<"en" | "fa" | "nl">("en");
+    
   return (
-    <div>
+     <div className="relative">
+      {/* 🌐 Language Selector */}
+      <div className="absolute top-4 left-4 z-50">
+        <LanguageToggle currentLang={lang} onChange={(newLang: "en" | "fa" | "nl") => setLang(newLang)} />
+      </div>
        {/* Navigation bar */}
       <Navbar
        logo={logo}

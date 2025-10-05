@@ -16,13 +16,15 @@ import exp2 from "./assets/exp2.jpeg";
 import LanguageToggle from "./components/LanguageToggle"
 function App() {
     const [lang, setLang] = useState<"en" | "fa" | "nl">("en");
-    
+
   return (
-     <div className="relative">
-      {/* 🌐 Language Selector */}
+    <div>
+     {/* Language Selector */}
       <div className="absolute top-4 left-4 z-50">
         <LanguageToggle currentLang={lang} onChange={(newLang: "en" | "fa" | "nl") => setLang(newLang)} />
       </div>
+     <div className="relative">
+     </div>
        {/* Navigation bar */}
       <Navbar
        logo={logo}

@@ -1,18 +1,23 @@
 import React from "react";
 import ReactCountryFlag from "react-country-flag";
 
-// ✅ تعریف نوع زبان‌ها
+//  Define language type
 type LanguageType = "en" | "fa" | "nl";
 
-// ✅ تعریف props
+//  Props type for LanguageToggle component
 type LanguageToggleProps = {
   currentLang: LanguageType;
   onChange: (lang: LanguageType) => void;
 };
 
+// LanguageToggle component
 const LanguageToggle: React.FC<LanguageToggleProps> = ({ currentLang, onChange }) => {
   return (
-    <div className="flex space-x-3 items-center bg-white/80 backdrop-blur-md px-3 py-2 rounded-full shadow-md border border-gray-200">
+    // Main wrapper for language flags
+    <div
+      className="fixed top-5 left-5 z-50 flex space-x-3 items-center bg-white/90 backdrop-blur-md 
+      px-4 py-2 rounded-full shadow-lg border border-gray-200"
+    >
       {/* 🇬🇧 English */}
       <button
         onClick={() => onChange("en")}
@@ -28,7 +33,7 @@ const LanguageToggle: React.FC<LanguageToggleProps> = ({ currentLang, onChange }
         />
       </button>
 
-      {/* 🇮🇷 Farsi */}
+      {/* 🇮🇷 Persian */}
       <button
         onClick={() => onChange("fa")}
         className={`p-1 rounded-full transition-all duration-200 ${

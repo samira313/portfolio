@@ -1,0 +1,17 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "Over mij",
+    "skills": "Vaardigheden",
+    "projects": "Projecten",
+    "journey": "Mijn Reis",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hoi, ik ben Samira Ahmadi",
+    "title": "Junior Softwareontwikkelaar",
+    "skills": "React | TypeScript | TailwindCSS | Node.js",
+    "viewWork": "Bekijk mijn werk",
+    "contactMe": "Neem contact op"
+  }
+}

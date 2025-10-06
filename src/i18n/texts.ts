@@ -1,3 +1,16 @@
+import en from "../locales/en.json";
+import fa from "../locales/fa.json";
+import nl from "../locales/nl.json";
+
+// Define a type for the available languages
+export type LanguageType = "en" | "fa" | "nl";
+
+// Export the texts object
+export const texts1: Record<LanguageType, typeof en> = {
+  en,
+  fa,
+  nl
+};
 
 export const texts = {
   about: {

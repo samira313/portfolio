@@ -6,7 +6,7 @@ import Journey from './sections/Journey';
 import logo  from "./assets/logo.png";
 import profileImage from "./assets/profile.jpeg"; 
 import About from "./sections/About";
-import { texts } from "./i18n/texts";
+import { texts, texts1 } from "./i18n/texts";
 import Skills from "./sections/Skills";
 import Projects from "./sections/Projects";
 import Contact from "./sections/Contact";
@@ -16,7 +16,7 @@ import exp2 from "./assets/exp2.jpeg";
 import LanguageToggle from "./components/LanguageToggle"
 function App() {
     const [lang, setLang] = useState<"en" | "fa" | "nl"> ("en");
-
+    const t = texts1[lang]; // shorthand for accessing current translations
   return (
   <>
      {/* Language Selector */}
@@ -30,14 +30,14 @@ function App() {
       <Navbar
        logo={logo}
         links={[
-          { name: "Home", href: "#hero" },
-          { name: "About", href: "#about" },
-          { name: "Skills", href: "#skills" },
-          { name: "Projects", href: "#projects" },
-          { name: "Journey", href: "#journey" },
-          { name: "Contact", href: "#contact" },
-        ]}
-      />
+        { name: t.navbar.home, href: "#hero" },
+        { name: t.navbar.about, href: "#about" },
+        { name: t.navbar.skills, href: "#skills" },
+        { name: t.navbar.projects, href: "#projects" },
+        { name: t.navbar.journey, href: "#journey" },
+        { name: t.navbar.contact, href: "#contact" },
+      ]} />
+
    <Hero
    profileImage={profileImage}
   name="Samira Ahmadi"

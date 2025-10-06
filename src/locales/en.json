@@ -1,0 +1,17 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "journey": "Journey",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm Samira Ahmadi",
+    "title": "Junior Software Developer",
+    "skills": "React | TypeScript | TailwindCSS | Node.js",
+    "viewWork": "View My Work",
+    "contactMe": "Contact Me"
+  }
+}

@@ -39,10 +39,10 @@ function App() {
       ]} />
 
    <Hero
-   profileImage={profileImage}
-  name="Samira Ahmadi"
-  title="Junior Software Developer"
-  skills={["React", "TypeScript", "TailwindCSS", "Node.js"]}
+    profileImage={profileImage}
+    name={t.hero.greeting}
+    title={t.hero.title}
+    skills={[t.hero.skills]}
 />
   <div>
       {/* Language Switcher */}

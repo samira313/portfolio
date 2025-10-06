@@ -22,7 +22,7 @@ export default function Hero({ profileImage, name, title, skills }: HeroProps) {
 
       {/* Name */}
       <h1 className="text-4xl md:text-5xl font-extrabold text-gray-800 mb-2">
-        Hi, I'm <span className="text-primary">{name}</span>
+      <span className="text-primary">{name}</span>
       </h1>
 
       {/* Title */}

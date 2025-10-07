@@ -1,5 +1,6 @@
 import React from "react";
 import ReactCountryFlag from "react-country-flag";
+import i18n from "../i18n/texts";
 
 //  Define language type
 type LanguageType = "en" | "fa" | "nl";
@@ -12,6 +13,10 @@ type LanguageToggleProps = {
 
 // LanguageToggle component
 const LanguageToggle: React.FC<LanguageToggleProps> = ({ currentLang, onChange }) => {
+  const handleChange = (lang: LanguageType) => {
+    i18n.changeLanguage(lang); 
+    onChange(lang);
+  };
   return (
     // Main wrapper for language flags
    <div
@@ -21,7 +26,7 @@ const LanguageToggle: React.FC<LanguageToggleProps> = ({ currentLang, onChange }
 
       {/* 🇬🇧 English */}
       <button
-        onClick={() => onChange("en")}
+        onClick={() => handleChange("en")}
         className={`p-1 rounded-full transition-all duration-200 ${
           currentLang === "en" ? "ring-2 ring-green-500 scale-110" : "hover:scale-105"
         }`}
@@ -36,7 +41,7 @@ const LanguageToggle: React.FC<LanguageToggleProps> = ({ currentLang, onChange }
 
       {/* 🇮🇷 Persian */}
       <button
-        onClick={() => onChange("fa")}
+        onClick={() => handleChange("fa")}
         className={`p-1 rounded-full transition-all duration-200 ${
           currentLang === "fa" ? "ring-2 ring-green-500 scale-110" : "hover:scale-105"
         }`}
@@ -51,7 +56,7 @@ const LanguageToggle: React.FC<LanguageToggleProps> = ({ currentLang, onChange }
 
       {/* 🇳🇱 Dutch */}
       <button
-        onClick={() => onChange("nl")}
+        onClick={() => handleChange("nl")}
         className={`p-1 rounded-full transition-all duration-200 ${
           currentLang === "nl" ? "ring-2 ring-green-500 scale-110" : "hover:scale-105"
         }`}

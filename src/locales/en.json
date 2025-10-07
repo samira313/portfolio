@@ -13,5 +13,29 @@
     "skills": "React | TypeScript | TailwindCSS | Node.js",
     "viewWork": "View My Work",
     "contactMe": "Contact Me"
+  },
+
+
+  "skills": {
+    "title": "Skills",
+    "subtitle": "Languages, Frameworks and Libraries",
+    "list": {
+      "html": "HTML5",
+      "css": "CSS3",
+      "javascript": "JavaScript",
+      "react": "React",
+      "typescript": "TypeScript",
+      "tailwind": "TailwindCSS",
+      "node": "Node.js",
+      "mysql": "MySQL",
+      "mongodb": "MongoDB",
+      "jest": "Jest",
+      "postman": "Postman",
+      "figma": "Figma",
+      "firebase": "Firebase",
+      "netlify": "Netlify",
+      "jira": "Jira",
+      "git": "Git & GitHub"
+    }
   }
 }

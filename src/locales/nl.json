@@ -1,6 +1,6 @@
 {
   "navbar": {
-    "home": "StartPagina",
+    "home": "Startpagina",
     "about": "Over mij",
     "skills": "Vaardigheden",
     "projects": "Projecten",
@@ -13,5 +13,27 @@
     "skills": "React | TypeScript | TailwindCSS | Node.js",
     "viewWork": "Bekijk mijn werk",
     "contactMe": "Neem contact op"
+  },
+   "skills": {
+    "title": "Vaardigheden",
+    "subtitle": "Talen, Frameworks en Bibliotheken",
+    "list": {
+      "html": "HTML5",
+      "css": "CSS3",
+      "javascript": "JavaScript",
+      "react": "React",
+      "typescript": "TypeScript",
+      "tailwind": "TailwindCSS",
+      "node": "Node.js",
+      "mysql": "MySQL",
+      "mongodb": "MongoDB",
+      "jest": "Jest",
+      "postman": "Postman",
+      "figma": "Figma",
+      "firebase": "Firebase",
+      "netlify": "Netlify",
+      "jira": "Jira",
+      "git": "Git & GitHub"
+    }
   }
 }

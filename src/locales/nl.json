@@ -35,5 +35,28 @@
       "jira": "Jira",
       "git": "Git & GitHub"
     }
-  }
+  },
+  "projects": {
+  "title": "Projecten",
+  "list": {
+    "shareWithUs": {
+      "name": "ShareWithUs",
+      "desc": "Een full-stack app voor het lenen en uitlenen van items binnen een gemeenschap. Gebouwd met de MERN-stack."
+    },
+    "shopMate": {
+      "name": "ShopMate",
+      "desc": "Een slimme boodschappenlijst-app gebouwd met TypeScript, React (Vite) en Firebase. Helpt gebruikers hun boodschappen te organiseren en lijsten in realtime te delen."
+    },
+    "cryptoApp": {
+      "name": "Crypto-App",
+      "desc": "Een crypto-dashboard gebouwd met React & CoinGecko API, met live zoekfunctie, grafieken en lokale opslag."
+    },
+    "weatherApp": {
+      "name": "Weather-App",
+      "desc": "Een interactieve weer-app die het huidige weer en een 5-daagse voorspelling voor elke stad wereldwijd toont."
+    }
+  },
+  "viewProject": "Bekijk project →"
+}
+
 }

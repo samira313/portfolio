@@ -46,19 +46,7 @@ function App() {
 />
   <div>
       {/* Language Switcher */}
-      <div className="flex justify-center space-x-4 mt-6">
-        {["en", "fa", "nl"].map((l) => (
-          <button
-            key={l}
-            onClick={() => setLang(l as "en" | "fa" | "nl")}
-            className={`px-4 py-2 rounded ${
-              lang === l ? "bg-primary text-white" : "bg-gray-200"
-            }`}
-          >
-            {l.toUpperCase()}
-          </button>
-        ))}
-      </div>
+     
 
       {/* About Section */}
       <About

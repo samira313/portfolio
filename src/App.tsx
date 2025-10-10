@@ -57,33 +57,8 @@ function App() {
      {/* Skills Section */}
       <Skills  />
         {/* Projects Section */}
-      <Projects
-        projects={[
-          {
-            title: "ShareWithUs",
-            description:
-              "A full-stack app for lending & borrowing items within a community. Built with the MERN stack.",
-            link: "https://github.com/samira313/ShareWithUs-App",
-          },
-          {
-            title: "ShopMate",
-            description:
-            " smart shopping list application built with TypeScript, React (Vite) and Firebase.It helps users organize their groceries, share lists with others, and keep everything synchronized in real-time.",
-            link: "https://github.com/samira313/ShopMate-",
-          },
-          {
-            title: "Crypto-App",
-            description:
-              "A crypto dashboard built with React & CoinGecko API. Features include live search, charts, and local storage.",
-            link: "https://github.com/samira313/Crypto-App",
-          },
-          {
-            title: "Weather-App",
-            description: "An interactive weather application that allows users to check the current weather and a 5-day forecast for any city worldwide.This app provides real-time weather updates",
-            link: "https://github.com/samira313/Weather-App",
-          },
-        ]}
-      />
+      <Projects />
+      
        <Experience
         experiences={[
           {

@@ -57,6 +57,19 @@
     }
   },
   "viewProject": "مشاهده پروژه →"
+},
+"experience": {
+  "title": "تجربه کاری",
+  "list": [
+    {
+      "role": "کارآموز توسعه‌دهنده فول‌استک وب",
+      "company": "HackYourFuture",
+      "duration": "نوامبر ۲۰۲۴ – ژوئن ۲۰۲۵",
+      "description": "در دوره‌ی من در HackYourFuture، در پروژه‌های فول‌استک با React، Node.js، Express و MongoDB همکاری کردم. همچنین تجربه‌ی عملی در متدولوژی اجایل داشتم و پروژه نهایی ShareWithUs را ارائه دادیم.",
+      "images": ["exp1.jpeg", "exp2.jpeg"]
+    }
+  ]
 }
+
 
 }

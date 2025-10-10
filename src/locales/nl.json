@@ -57,6 +57,19 @@
     }
   },
   "viewProject": "Bekijk project →"
+},
+"experience": {
+  "title": "Ervaring",
+  "list": [
+    {
+      "role": "Full Stack Web Developer Trainee",
+      "company": "HackYourFuture",
+      "duration": "nov 2024 – jun 2025",
+      "description": "Tijdens mijn traject bij HackYourFuture heb ik aan meerdere full-stack projecten gewerkt met React, Node.js, Express en MongoDB. Ik heb ook praktijkervaring opgedaan met Agile-werkwijzen en ons eindproject ShareWithUs gepresenteerd.",
+      "images": ["exp1.jpeg", "exp2.jpeg"]
+    }
+  ]
 }
+
 
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-// ✅ Define the props type for the Journey component
+//  Define the props type for the Journey component
 type JourneyProps = {
   image: string;   // Path to the journey image
   text?: string;   // Optional text (can come from props or translation)

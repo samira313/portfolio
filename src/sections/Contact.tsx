@@ -1,25 +1,27 @@
-type ContactProps = {
-  email: string;
-  linkedin: string;
-  github: string;
-};
+import { useTranslation } from "react-i18next";
 
-export default function Contact({ email, linkedin, github }: ContactProps) {
+export default function Contact() {
+  const { t } = useTranslation();
+
   return (
     <section id="contact" className="py-20 px-8 bg-white text-center">
-      <h2 className="text-4xl font-bold text-gray-900 mb-6">Contact Me</h2>
-      <p className="text-lg text-gray-600 mb-6">
-        Feel free to reach out via email or connect with me on social media.
+      <h2 className="text-4xl font-bold text-gray-900 mb-8">
+        {t("contact.title")}
+      </h2>
+
+      <p className="text-lg text-gray-700 mb-8">
+        {t("contact.description")}
       </p>
-      <div className="flex justify-center space-x-6 text-lg">
-        <a href={`mailto:${email}`} className="text-primary hover:underline">
-          Email
+
+      <div className="flex justify-center gap-6 text-gray-800 font-medium">
+        <a href="mailto:ahmadi.samira6761@gmail.com" className="hover:text-blue-600">
+          {t("contact.email")}
         </a>
-        <a href={linkedin} target="_blank" className="text-primary hover:underline">
-          LinkedIn
+        <a href="https://www.linkedin.com/in/samira313/" target="_blank" className="hover:text-blue-600">
+          {t("contact.linkedin")}
         </a>
-        <a href={github} target="_blank" className="text-primary hover:underline">
-          GitHub
+        <a href="https://github.com/samira313" target="_blank" className="hover:text-blue-600">
+          {t("contact.github")}
         </a>
       </div>
     </section>

@@ -81,7 +81,14 @@
   "email": "E-mail",
   "linkedin": "LinkedIn",
   "github": "GitHub"
+},
+"resume": {
+  "title": "CV",
+  "description": "Bekijk of download mijn CV hieronder.",
+  "button": "Bekijk CV"
 }
+
+
 
 
 

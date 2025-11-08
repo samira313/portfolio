@@ -83,7 +83,13 @@
   "email": "Email",
   "linkedin": "LinkedIn",
   "github": "GitHub"
+},
+"resume": {
+  "title": "Resume",
+  "description": "You can view or download my CV below.",
+  "button": "View Resume"
 }
+
 
 
 

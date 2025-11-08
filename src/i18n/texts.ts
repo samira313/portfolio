@@ -65,35 +65,7 @@ Wat mij het meest enthousiasmeert, is het creëren van software die het leven va
     },
   },
 
-  journey: {
-    en: {
-      title: "My Journey 🚀",
-      text: `From 2015 to 2021, I worked as an Accountant in Iran. 
-During these six years, I gained deep expertise in financial management, bookkeeping, and preparing accurate reports. 
 
-My role required precision, attention to detail, and structured problem-solving, as I dealt with tax calculations, compliance, and financial system organization. 
-
-These experiences shaped my ability to think critically, stay organized, and work under pressure — skills I now apply in my career as a software developer.`,
-    },
-    fa: {
-      title: "مسیر من 🚀",
-      text: `از سال ۲۰۱۵ تا ۲۰۲۱ به‌عنوان حسابدار در ایران کار کردم. 
-در طول این شش سال، تجربه عمیقی در مدیریت مالی، حسابداری و تهیه گزارش‌های دقیق به دست آوردم. 
-
-نقشم نیازمند دقت بالا، توجه به جزئیات و حل مسئله ساختاریافته بود، چرا که با محاسبه مالیات، رعایت قوانین و سازمان‌دهی سیستم‌های مالی سروکار داشتم. 
-
-این تجربه‌ها توانایی من را در تفکر انتقادی، سازمان‌دهی و کار تحت فشار شکل دادند — مهارت‌هایی که اکنون در مسیر توسعه نرم‌افزار از آن‌ها استفاده می‌کنم.`,
-    },
-    nl: {
-      title: "Mijn Reis 🚀",
-      text: `Van 2015 tot 2021 werkte ik als accountant in Iran. 
-Tijdens deze zes jaar heb ik veel ervaring opgedaan in financieel beheer, boekhouding en het opstellen van nauwkeurige rapporten. 
-
-Mijn rol vereiste precisie, aandacht voor detail en gestructureerd probleemoplossend vermogen, omdat ik verantwoordelijk was voor belastingberekeningen, naleving en het organiseren van financiële systemen. 
-
-Deze ervaringen hebben mijn vermogen gevormd om kritisch te denken, georganiseerd te blijven en onder druk te werken — vaardigheden die ik nu toepas in mijn carrière als softwareontwikkelaar.`,
-    },
-  },
 
   contact: {
     en: {

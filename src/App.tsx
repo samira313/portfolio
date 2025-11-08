@@ -12,6 +12,7 @@ import Projects from "./sections/Projects";
 import Contact from "./sections/Contact";
 import Experience from "./sections/Experience";
 import LanguageToggle from "./components/LanguageToggle"
+import Resume from './sections/Resume';
 function App() {
     const [lang, setLang] = useState<"en" | "fa" | "nl"> ("en");
     const t = texts1[lang]; // shorthand for accessing current translations
@@ -44,7 +45,7 @@ function App() {
 />
   <div>
       {/* Language Switcher */}
-     
+     <Resume />
 
       {/* About Section */}
       <About
@@ -72,6 +73,7 @@ function App() {
         github="https://github.com/samira313"
       />
     </div>
+    
        </>
   );
 }

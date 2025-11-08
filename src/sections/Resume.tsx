@@ -12,14 +12,14 @@ export default function Resume() {
         {t("resume.description")}
       </p>
 
-      <a
-        href="/Samira-Ahmadi-CV.pdf"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg shadow-md hover:bg-blue-700 transition"
-      >
-        {t("resume.button")}
-      </a>
+     <a
+  href="/public/Samira-Ahmadi-CV.pdf"
+  download
+  className="inline-block bg-green-600 text-white px-6 py-3 rounded-lg shadow-md hover:bg-green-700 transition"
+>
+  {t("resume.button")}
+</a>
+
     </section>
   );
 }

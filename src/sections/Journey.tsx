@@ -1,40 +1,39 @@
+// src/sections/Journey.tsx
 import React from "react";
 import { useTranslation } from "react-i18next";
+import accountImage from "../assets/journey/account1.jpeg";
 
-//  Define the props type for the Journey component
+// Define props type for Journey
 type JourneyProps = {
-  image: string;   // Path to the journey image
-  text?: string;   // Optional text (can come from props or translation)
+  image?: string; // optional, because we also import a default image
+  text?: string; // optional, when using translation instead of static text
 };
 
 const Journey: React.FC<JourneyProps> = ({ image, text }) => {
   const { t } = useTranslation();
 
-  // Get translation values or use passed props
-  const journeyText = text || t("journey.text");
-  const journeyTitle = t("journey.title");
-  const journeyAlt = t("journey.imageAlt");
+  // Use imported image if no prop is passed
+  const journeyImage = image || accountImage;
 
   return (
-    <section id="journey" className="py-20 px-8 bg-gray-50">
-      {/* Section title */}
-      <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">
-        {journeyTitle}
+    <section id="journey" className="py-20 px-8 bg-gray-50 text-center">
+      {/* Section Title */}
+      <h2 className="text-4xl font-bold text-gray-900 mb-12">
+        {t("journey.title")}
       </h2>
 
-      {/* Text and image layout */}
       <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-        
-        {/* Text area */}
-        <p className="text-lg text-gray-700 leading-relaxed text-center md:text-left">
-          {journeyText}
+        {/* Text Section */}
+        <p className="text-lg text-gray-700 leading-relaxed">
+          {/* If text prop exists, show it; otherwise, use translation */}
+          {text || t("journey.text")}
         </p>
 
-        {/* Image area */}
+        {/* Image Section */}
         <img
-          src={image}
-          alt={journeyAlt}
-          className="rounded-lg shadow-lg w-full object-cover md:w-[400px] mx-auto"
+          src={journeyImage}
+          alt={t("journey.alt")}
+          className="rounded-lg shadow-lg w-full object-cover"
         />
       </div>
     </section>

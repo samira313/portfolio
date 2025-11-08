@@ -61,10 +61,8 @@ function App() {
        <Experience />
 
         {/* Journey Section */}
-      <Journey
-  image="/src/assets/journey/account1.jpeg"
-  text="From 2015 to 2021, I worked as an Accountant in Iran. During these six years, I gained deep expertise in financial management, bookkeeping, and preparing accurate reports. These experiences shaped my ability to think critically, stay organized, and solve problems logically, skills I now apply to my career in software development."
-/>
+  <Journey />
+
 
      {/* Contact Section */}
       <Contact

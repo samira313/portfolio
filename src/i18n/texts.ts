@@ -29,6 +29,7 @@ export interface NavbarType {
   home: string;
   resume: string;
   about: string;
+  myStory: string;
   skills: string;
   projects: string;
   experience: string;
@@ -59,14 +60,15 @@ export interface TranslationsType {
 export const texts: Record<LanguageType, TranslationsType> = {
   en: {
     navbar: {
-      home: "Home",
-      resume: "Resume",
-      about: "About",
-      skills: "Skills",
-      projects: "Projects",
-      experience: "Experience",
-      journey: "My Journey",
-      contact: "Contact",
+        "home": "Startpagina",
+  "resume": "CV",
+  "about": "Over mij",
+  "myStory": "Mijn Verhaal",
+  "skills": "Vaardigheden",
+  "projects": "Projecten",
+  "experience": "Werkervaring",
+  "journey": "Mijn Reis",
+  "contact": "Contact"
     },
     hero: {
       greeting: "Hi, I'm Samira Ahmadi",
@@ -81,14 +83,15 @@ export const texts: Record<LanguageType, TranslationsType> = {
 
   fa: {
     navbar: {
-      home: "خانه",
-      resume: "رزومه",
-      about: "درباره من",
-      skills: "مهارت‌ها",
-      projects: "پروژه‌ها",
-      experience: "تجربه کاری",
-      journey: "سفر من",
-      contact: "تماس با من",
+ "home": "خانه",
+  "resume": "رزومه",
+  "about": "درباره من",
+  "myStory": "داستان من",
+  "skills": "مهارت‌ها",
+  "projects": "پروژه‌ها",
+  "experience": "تجربه کاری من",
+  "journey": "سفر من",
+  "contact": "تماس با من"
     },
     hero: {
       greeting: "سلام، من سمیرا احمدی هستم",
@@ -102,15 +105,16 @@ export const texts: Record<LanguageType, TranslationsType> = {
   },
 
   nl: {
-    navbar: {
-      home: "Startpagina",
-      resume: "CV",
-      about: "Over mij",
-      skills: "Vaardigheden",
-      projects: "Projecten",
-      experience: "Werkervaring",
-      journey: "Mijn reis",
-      contact: "Contact",
+  "navbar": {
+  "home": "Startpagina",
+  "resume": "CV",
+  "about": "Over mij",
+  "myStory": "Mijn Verhaal",
+  "skills": "Vaardigheden",
+  "projects": "Projecten",
+  "experience": "Werkervaring",
+  "journey": "Mijn Reis",
+  "contact": "Contact"
     },
     hero: {
       greeting: "Hoi, ik ben Samira Ahmadi",

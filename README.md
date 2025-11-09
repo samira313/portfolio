@@ -4,7 +4,7 @@ Hi! I'm **Samira Ahmadi**, a Junior Full-Stack Developer based in the Netherland
 This portfolio showcases my projects, skills, and professional journey — built with modern web technologies and a clean responsive design.
 
 ## 🚀 Live Demo
-Check it out here 👉 [https://unique-kitsune-3aaaf7.netlify.app/](https://unique-kitsune-3aa1f7.netlify.app)
+Check it out here 👉 [https://unique-kitsune-3aaaf7.netlify.app/](https://unique-kitsune-3aa1f7.netlify.app/)
 
 ## 🛠️ Tech Stack
 - ⚛️ **React + Vite**

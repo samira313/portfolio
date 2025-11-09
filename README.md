@@ -4,7 +4,7 @@ Hi! I'm **Samira Ahmadi**, a Junior Full-Stack Developer based in the Netherland
 This portfolio showcases my projects, skills, and professional journey — built with modern web technologies and a clean responsive design.
 
 ## 🚀 Live Demo
-Check it out here 👉 [https://sage-gelato-c42914.netlify.app/](My Portfolio)
+Check it out here 👉 [https://sage-gelato-c42914.netlify.app/](https://sage-gelato-c42914.netlify.app/)
 
 ## 🛠️ Tech Stack
 - ⚛️ **React + Vite**

@@ -1,55 +1,43 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-// Define the allowed project keys
 type ProjectKey = "shareWithUs" | "shopMate" | "cryptoApp" | "weatherApp";
-
-// Define the structure for each project in the component
-type Project = {
-  key: ProjectKey;
-};
 
 const Projects: React.FC = () => {
   const { t } = useTranslation();
 
-  // List of project keys for translation lookup
-  const projects: Project[] = [
-    { key: "shareWithUs" },
-    { key: "shopMate" },
-    { key: "cryptoApp" },
-    { key: "weatherApp" },
-  ];
+  const projectKeys: ProjectKey[] = ["shareWithUs", "shopMate", "cryptoApp", "weatherApp"];
 
   return (
-    <section id="projects" className="py-20 px-8 bg-white/50 text-center backdrop-blur-sm rounded-2xl shadow-sm my-12">
+    <section id="projects" className="py-20 px-8 bg-white/50 backdrop-blur-sm rounded-2xl shadow-md my-12 text-center">
       {/* Section Title */}
-      <h2 className="text-4xl font-bold text-gray-800 mb-10">
+      <h2 className="text-4xl font-bold text-gray-900 mb-10">
         {t("projects.title")}
       </h2>
 
-      {/* Projects Grid */}
+      {/* Project Grid */}
       <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-        {projects.map(({ key }) => (
+        {projectKeys.map((key) => (
           <div
             key={key}
-            className="bg-gray-50 p-6 rounded-lg shadow hover:shadow-lg transition"
+            className="bg-white/70 p-6 rounded-lg shadow hover:shadow-lg transition text-left"
           >
-            {/* Project Title */}
-            <h3 className="text-2xl font-semibold text-gray-800 mb-3">
-              {t(`projects.list.${key}.name`)}
+            <h3 className="text-xl font-semibold text-gray-800 mb-2">
+              {t(`projects.list.${key}.title`)}
             </h3>
-
-            {/* Project Description */}
             <p className="text-gray-600 mb-4">
-              {t(`projects.list.${key}.desc`)}
+              {t(`projects.list.${key}.description`)}
             </p>
 
-            {/* View Project Link */}
+            {/*  link button */}
             <a
-              href="#"
-              className="text-blue-600 font-medium hover:underline"
-            >
-              {t("projects.viewProject")}
+              href={t(`projects.list.${key}.link`)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-4 py-2 mt-3 bg-indigo-500 text-white rounded-md hover:bg-indigo-700 transition"
+>
+        
+              {t("projects.viewProject", "View Project →")}
             </a>
           </div>
         ))}

@@ -44,19 +44,23 @@
   "list": {
     "shareWithUs": {
       "name": "ShareWithUs",
-      "desc": "A full-stack app for lending & borrowing items within a community. Built with the MERN stack."
+      "desc": "A full-stack app for lending & borrowing items within a community. Built with the MERN stack.",
+      "link": "https://github.com/samira313/ShareWithUs-App"
     },
     "shopMate": {
       "name": "ShopMate",
-      "desc": "A smart shopping list app built with TypeScript, React (Vite), and Firebase. It helps users organize groceries, share lists, and stay synchronized in real-time."
+      "desc": "A smart shopping list app built with TypeScript, React (Vite), and Firebase. It helps users organize groceries, share lists, and stay synchronized in real-time.",
+       "link": "https://github.com/samira313/ShopMate-"
     },
     "cryptoApp": {
       "name": "Crypto-App",
-      "desc": "A crypto dashboard built with React & CoinGecko API. Includes live search, charts, and local storage."
+      "desc": "A crypto dashboard built with React & CoinGecko API. Includes live search, charts, and local storage.",
+       "link": "https://github.com/samira313/Crypto-App"
     },
     "weatherApp": {
       "name": "Weather-App",
-      "desc": "An interactive weather app that shows current weather and a 5-day forecast for any city worldwide."
+      "desc": "An interactive weather app that shows current weather and a 5-day forecast for any city worldwide.", 
+      "link": "https://github.com/samira313/Weather-App"
     }
   },
   "viewProject": "View Project →"

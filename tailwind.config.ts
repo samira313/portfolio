@@ -13,7 +13,7 @@ const config: Config = {
         accent: "#FF8C32",  
       },
       fontFamily: {
-             sans: ["Inter", "sans-serif"],
+             sans: ['Poppins', 'Vazirmatn', 'ui-sans-serif', 'system-ui'],
              heading: ["Poppins", "sans-serif"],
              poppins: ['Poppins', 'sans-serif'],
              inter: ['Inter', 'sans-serif'],

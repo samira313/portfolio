@@ -3,9 +3,11 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.tsx'
 import "./i18n/texts"
-import "@fontsource/poppins/400.css"; /* Regular */
-import "@fontsource/poppins/600.css"; /* SemiBold */
-import "@fontsource/poppins/700.css"; /* Bold */
+import "@fontsource/poppins/400.css";
+import "@fontsource/poppins/600.css";
+import "@fontsource/poppins/700.css";
+import "@fontsource/vazirmatn/400.css";
+import "@fontsource/vazirmatn/600.css";
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

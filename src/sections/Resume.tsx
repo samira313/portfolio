@@ -5,7 +5,7 @@ export default function Resume() {
 
   return (
     <section id="resume" className="py-20 bg-gray-50 text-center">
-      <h2 className="text-4xl font-bold text-gray-900 mb-8">
+      <h2 className="text-4xl font-bold text-center mb-10 text-indigo-700">
         {t("resume.title")}
       </h2>
 

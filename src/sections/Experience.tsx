@@ -33,7 +33,7 @@ const Experience: React.FC<ExperienceProps> = ({ experiences }) => {
 
   return (
     <section id="experience" className="py-20 px-8 bg-gray-50">
-      <h2 className="text-4xl font-bold text-center text-gray-800 mb-14">
+      <h2 className="text-4xl font-bold text-center mb-10 text-indigo-700">
         {t("experience.title")}
       </h2>
 
@@ -44,7 +44,7 @@ const Experience: React.FC<ExperienceProps> = ({ experiences }) => {
         >
           {/* LEFT: Text content */}
           <div className="md:w-1/2 text-center md:text-left">
-            <h3 className="text-3xl py-19 font-semibold text-gray-800">{exp.role}</h3>
+            <h3 className="text-3xl py-19 font-semibold text-gray-800 ">{exp.role}</h3>
             <p className="text-2xl text-gray-600 italic mt-1">
               {exp.company} | {exp.duration}
             </p>

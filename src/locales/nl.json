@@ -1,12 +1,17 @@
 {
   "navbar": {
-    "home": "Startpagina",
-    "about": "Over mij",
-    "skills": "Vaardigheden",
-    "projects": "Projecten",
-    "journey": "Mijn Reis",
-    "contact": "Contact"
-  },
+  "home": "Startpagina",
+  "resume": "CV",
+  "about": "Over mij",
+  "myStory": "Mijn Verhaal",
+  "skills": "Vaardigheden",
+  "projects": "Projecten",
+  "experience": "Werkervaring",
+  "journey": "Mijn Reis",
+  "contact": "Contact"
+},
+
+
   "hero": {
     "greeting": "Hoi, ik ben Samira Ahmadi",
     "title": "Junior Softwareontwikkelaar",
@@ -86,7 +91,30 @@
   "title": "CV",
   "description": "Bekijk of download mijn CV hieronder.",
   "button": "Bekijk CV"
+},
+"story": {
+  "title": "Mijn Verhaal",
+  "sections": {
+    "journey": {
+      "title": "Mijn Reis",
+      "text1": "Mijn naam is Samira Ahmadi. Ik ben 36 jaar oud, getrouwd, geen kinderen, en woon momenteel in Veenendaal, Nederland. Ik ben geboren en opgegroeid in Shiraz, Iran, waar ik jarenlang in de financiële sector werkte.",
+      "text2": "Een paar jaar geleden nam ik een moedige beslissing. Ik verliet mijn comfortzone en begon opnieuw in een nieuw land, met een nieuwe taal, en in een heel ander vakgebied: IT.",
+      "text3": "Deze reis van migratie en heruitvinding heeft me geleerd sterk te blijven wanneer alles onbekend is, me snel aan te passen en nieuwsgierig te blijven. Deze uitdagingen hebben me niet gebroken — ze hebben me gevormd."
+    },
+    "learning": {
+      "title": "Wat Ik Heb Geleerd",
+      "text1": "Ik heb full-stack webdevelopment gestudeerd bij HackYourFuture, een bootcamp voor nieuwkomers in Nederland. Daar heb ik JavaScript, Node.js, MongoDB, Express en React geleerd, en ontdekte ik mijn passie voor backend development.",
+      "text2": "Een hoogtepunt was ons laatste groepsproject, waarin ik het authenticatiesysteem bouwde en de frontend met de backend verbond. Het was moeilijk in het begin, maar ik bleef doorgaan, vroeg om hulp en loste het stap voor stap op.",
+      "text3": "Naast technische vaardigheden ben ik betrouwbaar, rustig onder druk en een goede communicator. Ik werk graag met mensen met verschillende achtergronden en geloof in duidelijke, respectvolle samenwerking."
+    },
+    "goals": {
+      "title": "Carrièredoelen",
+      "text1": "Ik ben vooral geïnteresseerd in een rol als full stack developer. Ik hou ervan om problemen achter de schermen op te lossen en systemen soepel te laten draaien.",
+      "text2": "Mijn droom is om te groeien in een professionele IT-omgeving, waar ik niet alleen als developer kan bijdragen, maar ook als iemand die discipline, betrouwbaarheid en vriendelijkheid in het team brengt."
+    }
+  }
 }
+
 
 
 

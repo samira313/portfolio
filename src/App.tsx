@@ -13,6 +13,8 @@ import Contact from "./sections/Contact";
 import Experience from "./sections/Experience";
 import LanguageToggle from "./components/LanguageToggle";
 import Resume from "./sections/Resume";
+import MyStory from "./sections/MyStory";
+
 
 function App() {
   // Manage language state (English default)
@@ -30,6 +32,7 @@ function App() {
           { name: t.navbar.home, href: "#hero" },
           { name: t.navbar.resume, href: "#resume" },
           { name: t.navbar.about, href: "#about" },
+          { name: t.navbar.myStory, href: "#MyStory" },
           { name: t.navbar.skills, href: "#skills" },
           { name: t.navbar.projects, href: "#projects" },
            { name: t.navbar.experience, href: "#experience" },
@@ -60,6 +63,11 @@ function App() {
 
         {/* About Section */}
         <About title={t.about.title} description={t.about.text} />
+         
+         {/* My Story */ }
+        
+         <MyStory />
+
 
         {/* Skills Section */}
         <Skills />

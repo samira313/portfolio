@@ -40,7 +40,7 @@ export default function Skills() {
 
   return (
     <section id="skills" className="py-20 px-8 bg-white text-center">
-      <h2 className="text-4xl font-bold text-gray-800 mb-10">{t("skills.title")}</h2>
+      <h2 className="text-4xl font-bold text-center mb-10 text-indigo-700">{t("skills.title")}</h2>
       <h3 className="text-xl text-gray-600 mb-8">{t("skills.subtitle")}</h3>
 
       <div className="grid grid-cols-2 md:grid-cols-3 gap-8 max-w-4xl mx-auto">

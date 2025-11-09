@@ -45,7 +45,7 @@ const Experience: React.FC<ExperienceProps> = ({ experiences }) => {
           {/* LEFT: Text content */}
           <div className="md:w-1/2 text-center md:text-left">
             <h3 className="text-3xl py-19 font-semibold text-gray-800 ">{exp.role}</h3>
-            <p className="text-2xl text-gray-600 italic mt-1">
+            <p className="text-2xl text-gray-600  mt-1">
               {exp.company} | {exp.duration}
             </p>
             <p className="mt-4 text-gray-700 leading-relaxed">

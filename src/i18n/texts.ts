@@ -59,26 +59,28 @@ export interface TranslationsType {
 // --------------------------------------------
 export const texts: Record<LanguageType, TranslationsType> = {
   en: {
-    navbar: {
-        "home": "Startpagina",
-  "resume": "CV",
-  "about": "Over mij",
-  "myStory": "Mijn Verhaal",
-  "skills": "Vaardigheden",
-  "projects": "Projecten",
-  "experience": "Werkervaring",
-  "journey": "Mijn Reis",
+    "navbar": {
+  "home": "Home",
+  "resume": "Resume",
+  "about": "About",
+  "myStory": "My Story",
+  "skills": "Skills",
+  "projects": "Projects",
+  "experience": "Experience",
+  "journey": "My Journey",
   "contact": "Contact"
-    },
+},
+
     hero: {
       greeting: "Hi, I'm Samira Ahmadi",
       title: "Junior Software Developer",
       skills: ["React", "TypeScript", "TailwindCSS", "Node.js"],
     },
     about: {
-      title: "About Me",
-      text: "I am a Junior Software Developer who is passionate about learning and building meaningful applications. With a background in accounting, I bring precision, structure, and problem-solving into my work as a developer.",
-    },
+  "title": "About Me",
+  "text": "I’m a Junior Software Developer with a strong passion for building meaningful and user-focused applications. My journey into tech started with curiosity and grew into a deep love for problem-solving and continuous learning. With a background in finance, I bring structure, precision, and analytical thinking into my development work. I enjoy both front-end creativity and back-end logic, which makes full-stack development the perfect balance for me. What excites me most is transforming ideas into functional, beautiful digital products that make people’s lives easier."
+}
+,
   },
 
   fa: {
@@ -99,9 +101,10 @@ export const texts: Record<LanguageType, TranslationsType> = {
       skills: ["React", "TypeScript", "TailwindCSS", "Node.js"],
     },
     about: {
-      title: "درباره من",
-      text: "من توسعه‌دهنده‌ای هستم که عاشق یادگیری و ساخت اپلیکیشن‌های معنادار است. با پیش‌زمینه‌ای در حسابداری، نظم و دقت را به دنیای برنامه‌نویسی آورده‌ام.",
-    },
+  "title": "درباره من",
+  "text": "من یک توسعه‌دهنده نرم‌افزار هستم که با اشتیاق زیاد در مسیر ساخت برنامه‌های کاربردی معنادار و کاربرمحور قدم برمی‌دارم. مسیر من در دنیای فناوری با کنجکاوی آغاز شد و به عشقی عمیق به حل مسئله و یادگیری مداوم تبدیل شد. پیش‌زمینه‌ام در حسابداری به من دقت، نظم و تفکر تحلیلی بخشیده است که در توسعه نرم‌افزار به کار می‌گیرم. از خلاقیت طراحی در فرانت‌اند تا منطق فنی بک‌اند لذت می‌برم و همین ترکیب، باعث شده توسعه فول‌استک برایم بهترین مسیر باشد. بیشترین انگیزه‌ام زمانی است که ایده‌ای را به یک محصول دیجیتال واقعی، زیبا و کاربردی تبدیل می‌کنم."
+}
+,
   },
 
   nl: {
@@ -122,8 +125,9 @@ export const texts: Record<LanguageType, TranslationsType> = {
       skills: ["React", "TypeScript", "TailwindCSS", "Node.js"],
     },
     about: {
-      title: "Over mij",
-      text: "Ik ben een junior softwareontwikkelaar die gepassioneerd is over leren en het bouwen van betekenisvolle applicaties.",
-    },
+  "title": "Over mij",
+  "text": "Ik ben een junior softwareontwikkelaar met een sterke passie voor het bouwen van betekenisvolle en gebruiksvriendelijke applicaties. Mijn reis in de technologie begon met nieuwsgierigheid en groeide uit tot een diepe liefde voor probleemoplossing en continu leren. Met een achtergrond in de financiële sector breng ik structuur, precisie en analytisch denken in mijn werk als ontwikkelaar. Ik geniet zowel van de creativiteit van front-end als de logica van back-end, wat full-stack ontwikkeling voor mij de perfecte balans maakt. Wat mij het meest enthousiasmeert, is het omzetten van ideeën in functionele en mooie digitale producten die het leven van mensen makkelijker maken."
+}
+,
   },
 };

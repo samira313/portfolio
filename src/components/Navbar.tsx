@@ -14,14 +14,13 @@ export default function Navbar({ logo, links }: NavbarProps) {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="fixed  left-0 w-full bg-white/80 backdrop-blur-md shadow-md z-50">
-      <div className="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between">
+<nav className="fixed left-0 top-2  w-full z-50 bg-gradient-to-r  from-sky-700 via-blue-600 to-indigo-700 bg-opacity-90 backdrop-blur-md shadow-lg transition-all duration-300">
+
+      <div className="max-w-6xl  flex   justify-between">
         {/* Logo */}
-        <a href="#" className="flex items-center space-x-2">
-          <img src={logo} alt="Logo" className="w-10 h-10 rounded-full shadow-sm" />
-          <span className="text-xl font-semibold text-gray-800 tracking-wide">
-            Samira
-          </span>
+        <a href="#" className="flex  items-center space-x-2">
+          <img src={logo} alt="Logo" className="w-40 h-15 brightness-25 bg-white/20 contrast-700 hover:brightness-150 transition-all duration-300 rounded-full shadow-lg" />
+          
         </a>
 
         {/* Desktop Links */}
@@ -30,7 +29,7 @@ export default function Navbar({ logo, links }: NavbarProps) {
             <li key={link.name}>
               <a
                 href={link.href}
-                className="text-gray-700 font-medium hover:text-blue-600 transition-colors duration-200"
+                className="text-gray-950 font-medium hover:text-blue-400 transition-colors duration-200"
               >
                 {link.name}
               </a>

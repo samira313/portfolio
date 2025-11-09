@@ -97,28 +97,28 @@
   "sections": {
     "journey": {
       "title": "Mijn Reis",
-      "text1": "Mijn naam is Samira Ahmadi. Ik ben 36 jaar oud, getrouwd, geen kinderen, en woon momenteel in Veenendaal, Nederland. Ik ben geboren en opgegroeid in Shiraz, Iran, waar ik jarenlang in de financiële sector werkte.",
-      "text2": "Een paar jaar geleden nam ik een moedige beslissing. Ik verliet mijn comfortzone en begon opnieuw in een nieuw land, met een nieuwe taal, en in een heel ander vakgebied: IT.",
-      "text3": "Deze reis van migratie en heruitvinding heeft me geleerd sterk te blijven wanneer alles onbekend is, me snel aan te passen en nieuwsgierig te blijven. Deze uitdagingen hebben me niet gebroken — ze hebben me gevormd."
+      "text1": "Mijn naam is Samira Ahmadi. Ik ben 36 jaar oud, getrouwd en woon in Veenendaal, Nederland. Ik ben geboren en opgegroeid in Shiraz, Iran, waar ik jarenlang in de financiële sector werkte. Een paar jaar geleden besloot ik mijn comfortzone te verlaten, naar een nieuw land te verhuizen, een nieuwe taal te leren en een nieuwe carrière in IT te beginnen.",
+      "text2": "Deze reis heeft me geleerd om sterk te blijven als alles onbekend voelt, om me snel aan te passen en om nieuwsgierig te blijven. Het was niet gemakkelijk, maar het heeft me gevormd tot wie ik nu ben.",
+      "text3": "Ik heb geleerd dat groei niet uit comfort komt, maar uit uitdagingen — en die mentaliteit drijft me nu als developer."
     },
     "learning": {
-      "title": "Wat Ik Heb Geleerd",
-      "text1": "Ik heb full-stack webdevelopment gestudeerd bij HackYourFuture, een bootcamp voor nieuwkomers in Nederland. Daar heb ik JavaScript, Node.js, MongoDB, Express en React geleerd, en ontdekte ik mijn passie voor backend development.",
-      "text2": "Een hoogtepunt was ons laatste groepsproject, waarin ik het authenticatiesysteem bouwde en de frontend met de backend verbond. Het was moeilijk in het begin, maar ik bleef doorgaan, vroeg om hulp en loste het stap voor stap op.",
-      "text3": "Naast technische vaardigheden ben ik betrouwbaar, rustig onder druk en een goede communicator. Ik werk graag met mensen met verschillende achtergronden en geloof in duidelijke, respectvolle samenwerking."
+      "title": "Wat ik heb geleerd",
+      "text1": "Ik heb full stack webontwikkeling gestudeerd bij HackYourFuture, een bootcamp voor nieuwkomers in Nederland. Daar leerde ik JavaScript, Node.js, MongoDB, Express en React. Ik ontdekte hoe leuk het is om aan zowel de frontend als backend te werken en te zien hoe alles samenkomt.",
+      "text2": "Voor ons eindproject bouwde ik het authenticatiesysteem en koppelde ik de frontend en backend. Het was moeilijk in het begin, maar stap voor stap begon alles logisch te worden.",
+      "text3": "Naast technische vaardigheden ben ik betrouwbaar, rustig onder druk en een goede communicator. Ik werk graag samen met verschillende mensen en leer graag van elke ervaring."
     },
     "goals": {
       "title": "Carrièredoelen",
-      "text1": "Ik ben vooral geïnteresseerd in een rol als full stack developer. Ik hou ervan om problemen achter de schermen op te lossen en systemen soepel te laten draaien.",
-      "text2": "Mijn droom is om te groeien in een professionele IT-omgeving, waar ik niet alleen als developer kan bijdragen, maar ook als iemand die discipline, betrouwbaarheid en vriendelijkheid in het team brengt."
+      "text1": "Ik ben gepassioneerd over full stack development omdat ik graag dingen bouw van begin tot eind van de logica achter de schermen tot de ervaring van de gebruiker.",
+      "text2": "Mijn doel is om te groeien als full stack developer in een team dat waarde hecht aan leren, samenwerking en vriendelijkheid. Ik wil mijn vaardigheden blijven verbeteren en software bouwen die het leven van anderen een beetje makkelijker maakt."
     }
   }
 }
 
-
-
-
-
-
-
 }
+
+
+
+
+
+

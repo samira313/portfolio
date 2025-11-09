@@ -94,32 +94,36 @@
   "title": "Resume",
   "description": "You can view or download my CV below.",
   "button": "View Resume"
-}, "story": {
+}, 
+
+"story": {
   "title": "My Story",
   "sections": {
     "journey": {
       "title": "My Journey",
-      "text1": "My name is Samira Ahmadi. I’m 36 years old, married, no kids, and I currently live in Veenendaal, the Netherlands. I was born and raised in Shiraz, Iran, where I worked for years in finance.",
-      "text2": "A few years ago, I made a bold decision. I left my comfort zone and started over in a new country, with a new language, and in a completely different field: IT.",
-      "text3": "This journey of migration and reinvention taught me how to stay strong when everything feels unfamiliar, how to adapt quickly, and how to stay curious no matter what. These challenges didn’t break me—they built me."
+      "text1": "My name is Samira Ahmadi. I’m 36 years old, married, and currently live in Veenendaal, the Netherlands. I was born and raised in Shiraz, Iran, where I worked for several years in finance. A few years ago, I made a big decision to leave my comfort zone, move to a new country, learn a new language, and start a new career in IT.",
+      "text2": "This journey taught me how to stay strong when everything feels unfamiliar, how to adapt fast, and how to keep my curiosity alive. It wasn’t easy, but it shaped who I am today.",
+      "text3": "I’ve learned that growth doesn’t come from comfort, but from challenges and that mindset now drives me as a developer."
     },
     "learning": {
       "title": "What I’ve Learned",
-      "text1": "I studied full-stack web development at HackYourFuture, a bootcamp for newcomers in the Netherlands. I learned JavaScript, Node.js, MongoDB, Express, and React, and found that I especially enjoy backend development.",
-      "text2": "One highlight for me was our final group project. I built the authentication system and connected the frontend and backend. It was hard at first, but I kept pushing, asked for help, and figured it all out step by step.",
-      "text3": "Besides technical skills, I’m also reliable, calm under stress, and a good communicator. I enjoy working with people from different backgrounds and believe in clear, respectful collaboration."
+      "text1": "I studied full stack web development at HackYourFuture, a bootcamp for newcomers in the Netherlands. I learned JavaScript, Node.js, MongoDB, Express, and React. I discovered how much I enjoy full stack development seeing how logic and design come together to create something real.",
+      "text2": "In our final group project, I built the authentication system and connected frontend and backend. It was challenging, but I stayed patient, asked for help when needed, and solved it step by step.",
+      "text3": "Besides technical skills, I’m reliable, calm under stress, and a good communicator. I enjoy teamwork and learning from different perspectives."
     },
     "goals": {
       "title": "Career Goals",
-      "text1": "I’m most interested in a full stack . I love solving problems behind the scenes and making things run smoothly.",
-      "text2": "My dream is to grow in a professional IT environment where I can contribute not only as a developer but also as someone who brings discipline, reliability, and kindness to the team."
+      "text1": "I’m passionate about full stack development because I love building complete products from backend logic to the user experience on the frontend.",
+      "text2": "My goal is to grow as a full stack developer in a team that values learning, collaboration, and kindness. I want to keep improving, face real challenges, and create software that makes life a bit easier for others."
     }
   }
 }
-
-
-
-
-
-
 }
+
+
+
+
+
+
+
+

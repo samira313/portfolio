@@ -21,7 +21,7 @@ const Projects: React.FC = () => {
   ];
 
   return (
-    <section id="projects" className="py-20 px-8 bg-white text-center">
+    <section id="projects" className="py-20 px-8 bg-white/50 text-center backdrop-blur-sm rounded-2xl shadow-sm my-12">
       {/* Section Title */}
       <h2 className="text-4xl font-bold text-gray-800 mb-10">
         {t("projects.title")}

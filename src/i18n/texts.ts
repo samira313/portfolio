@@ -1,9 +1,10 @@
+import i18n from "i18next";
+import { initReactI18next } from "react-i18next";
 import en from "../locales/en.json";
 import fa from "../locales/fa.json";
 import nl from "../locales/nl.json";
-import { initReactI18next } from "react-i18next";
-import i18n from "i18next";
 
+// Initialize i18n
 i18n
   .use(initReactI18next)
   .init({
@@ -12,82 +13,113 @@ i18n
       fa: { translation: fa },
       nl: { translation: nl },
     },
-    lng: "en", // default language
+    lng: "en", // Default language
     fallbackLng: "en",
-    interpolation: {
-      escapeValue: false,
-    },
+    interpolation: { escapeValue: false },
   });
 
 export default i18n;
 
-// Define a type for the available languages
+// --------------------------------------------
+// Define types for all translations
+// --------------------------------------------
 export type LanguageType = "en" | "fa" | "nl";
 
-// Export the texts object
-export const texts1: Record<LanguageType, typeof en> = {
-  en,
-  fa,
-  nl
-};
+export interface NavbarType {
+  home: string;
+  resume: string;
+  about: string;
+  skills: string;
+  projects: string;
+  experience: string;
+  journey: string;
+  contact: string;
+}
 
-export const texts = {
-  about: {
-    en: {
+export interface HeroType {
+  greeting: string;
+  title: string;
+  skills: string[];
+}
+
+export interface AboutType {
+  title: string;
+  text: string;
+}
+
+export interface TranslationsType {
+  navbar: NavbarType;
+  hero: HeroType;
+  about: AboutType;
+}
+
+// --------------------------------------------
+// Define all text content (for TypeScript safety)
+// --------------------------------------------
+export const texts: Record<LanguageType, TranslationsType> = {
+  en: {
+    navbar: {
+      home: "Home",
+      resume: "Resume",
+      about: "About",
+      skills: "Skills",
+      projects: "Projects",
+      experience: "Experience",
+      journey: "My Journey",
+      contact: "Contact",
+    },
+    hero: {
+      greeting: "Hi, I'm Samira Ahmadi",
+      title: "Junior Software Developer",
+      skills: ["React", "TypeScript", "TailwindCSS", "Node.js"],
+    },
+    about: {
       title: "About Me",
-      text: `I am a Junior Software Developer who is passionate about learning and building meaningful applications. 
-In 2021, I moved to the Netherlands, where I discovered my love for programming. 
-
-With a background in accounting, I bring precision, structure, and problem-solving into my work as a developer. 
-Since then, I have embraced every opportunity to grow from joining HackYourFuture to continuous self-learning. 
-
-What excites me most is creating software that improves people’s lives, collaborating with diverse teams, and turning challenges into human-centered solutions.`,
-    },
-    fa: {
-      title: "درباره من",
-      text: `من یک جونیور دولوپر هستم که عاشق یادگیری و ساخت اپلیکیشن‌های معنادارم. 
-در سال ۲۰۲۱ به هلند مهاجرت کردم و همان‌جا علاقه‌ام به برنامه‌نویسی را کشف کردم. 
-
-با پیشینه‌ای در حسابداری، ذهنیتی دقیق، ساختاریافته و حل‌مسئله‌محور را وارد دنیای توسعه نرم‌افزار کرده‌ام. 
-از آن زمان، از هر فرصتی برای رشد استفاده کرده‌ام — از پیوستن به HackYourFuture گرفته تا یادگیری مداوم تکنولوژی‌های جدید به صورت خودآموز. 
-
-آنچه بیش از همه مرا هیجان‌زده می‌کند، ساخت نرم‌افزارهایی است که زندگی مردم را آسان‌تر می‌کنند، کار تیمی و همکاری با افراد متنوع، و تبدیل چالش‌ها به راه‌حل‌های زیبا و انسانی.`,
-    },
-    nl: {
-      title: "Over Mij",
-      text: `Ik ben een junior softwareontwikkelaar met een passie voor leren en het bouwen van betekenisvolle applicaties. 
-In 2021 ben ik naar Nederland verhuisd, waar ik mijn liefde voor programmeren heb ontdekt. 
-
-Met een achtergrond in boekhouding breng ik nauwkeurigheid, structuur en probleemoplossend vermogen mee naar softwareontwikkeling. 
-Sindsdien heb ik elke kans benut om te groeien van HackYourFuture tot zelfstandig leren van nieuwe technologieën. 
-
-Wat mij het meest enthousiasmeert, is het creëren van software die het leven van mensen gemakkelijker maakt, samenwerken in diverse teams, en het omzetten van uitdagingen in elegante, mensgerichte oplossingen.`,
+      text: "I am a Junior Software Developer who is passionate about learning and building meaningful applications. With a background in accounting, I bring precision, structure, and problem-solving into my work as a developer.",
     },
   },
 
-
-
-  contact: {
-    en: {
-      title: "Contact Me",
-      text: "Feel free to reach out via email or connect with me on social media.",
-      email: "Email",
-      linkedin: "LinkedIn",
-      github: "GitHub",
+  fa: {
+    navbar: {
+      home: "خانه",
+      resume: "رزومه",
+      about: "درباره من",
+      skills: "مهارت‌ها",
+      projects: "پروژه‌ها",
+      experience: "تجربه کاری",
+      journey: "سفر من",
+      contact: "تماس با من",
     },
-    fa: {
-      title: "تماس با من",
-      text: "خوشحال می‌شوم از طریق ایمیل یا شبکه‌های اجتماعی با من در ارتباط باشید.",
-      email: "ایمیل",
-      linkedin: "لینکدین",
-      github: "گیت‌هاب",
+    hero: {
+      greeting: "سلام، من سمیرا احمدی هستم",
+      title: "توسعه‌دهنده نرم‌افزار جونیور",
+      skills: ["React", "TypeScript", "TailwindCSS", "Node.js"],
     },
-    nl: {
-      title: "Contact",
-      text: "Neem gerust contact met mij op via e-mail of via sociale media.",
-      email: "E-mail",
-      linkedin: "LinkedIn",
-      github: "GitHub",
+    about: {
+      title: "درباره من",
+      text: "من توسعه‌دهنده‌ای هستم که عاشق یادگیری و ساخت اپلیکیشن‌های معنادار است. با پیش‌زمینه‌ای در حسابداری، نظم و دقت را به دنیای برنامه‌نویسی آورده‌ام.",
+    },
+  },
+
+  nl: {
+    navbar: {
+      home: "Startpagina",
+      resume: "CV",
+      about: "Over mij",
+      skills: "Vaardigheden",
+      projects: "Projecten",
+      experience: "Werkervaring",
+      journey: "Mijn reis",
+      contact: "Contact",
+    },
+    hero: {
+      greeting: "Hoi, ik ben Samira Ahmadi",
+      title: "Junior Software Developer",
+      skills: ["React", "TypeScript", "TailwindCSS", "Node.js"],
+    },
+    about: {
+      title: "Over mij",
+      text: "Ik ben een junior softwareontwikkelaar die gepassioneerd is over leren en het bouwen van betekenisvolle applicaties.",
     },
   },
 };

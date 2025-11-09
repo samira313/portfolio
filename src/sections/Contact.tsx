@@ -11,7 +11,7 @@ export default function Contact({ email, linkedin, github }: ContactProps) {
   const { t } = useTranslation();
 
   return (
-    <section id="contact" className="py-20 px-8 bg-gray-50 text-center">
+    <section id="contact" className='scroll-mt-24 py-20 px-8 bg-white/50 text-center backdrop-blur-sm rounded-2xl shadow-sm my-12'>
       <h2 className="text-4xl font-bold text-gray-900 mb-8">{t("contact.title")}</h2>
       <p className="text-lg text-gray-700 mb-8">{t("contact.description")}</p>
 

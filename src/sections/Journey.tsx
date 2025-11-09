@@ -16,7 +16,7 @@ const Journey: React.FC<JourneyProps> = ({ image, text }) => {
   const journeyImage = image || accountImage;
 
   return (
-    <section id="journey" className="py-20 px-8 bg-gray-50 text-center">
+    <section id="journey" className="py-20 px-8  bg-white/50 text-center backdrop-blur-sm rounded-2xl shadow-sm my-12">
       {/* Section Title */}
       <h2 className="text-4xl font-bold text-gray-900 mb-12">
         {t("journey.title")}

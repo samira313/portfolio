@@ -20,7 +20,7 @@ const LanguageToggle: React.FC<LanguageToggleProps> = ({ currentLang, onChange }
   return (
     // Main wrapper for language flags
    <div
-  className="fixed top-20 z-40 flex space-x-4 items-center bg-gray-200 backdrop-blur-md 
+  className="fixed top-20 z-40 flex space-x-2 items-center bg-gray-200 backdrop-blur-md 
  rounded-full shadow-lg border border-gray-200"
 >
 

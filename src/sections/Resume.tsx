@@ -12,7 +12,7 @@ export default function Resume() {
       <p className="text-lg text-gray-700 mb-8">{t("resume.description")}</p>
 
       <a
-        href="/Samira Ahmadi CV.pdf"
+        href="/Samira-Ahmadi-CV.pdf"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition duration-300"
